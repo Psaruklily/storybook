@@ -1,0 +1,31 @@
+.spinner {
+    width: 25px;
+    height: 25px;
+    animation: rotator 1.4s linear infinite;
+    background: rgb(216, 208, 208);
+}
+
+@keyframes rotator {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(270deg); }
+}
+
+.spinner__path {
+    stroke: #FFFFFF;
+    stroke-dasharray: 188;
+    stroke-dashoffset: 0;
+    transform-origin: center;
+    animation: dash 1.4s ease-in-out infinite;
+}
+
+@keyframes dash {
+    0% { stroke-dashoffset: 188; }
+    50% {
+      stroke-dashoffset: 188/4;
+      transform:rotate(135deg);
+    }
+    100% {
+      stroke-dashoffset: 188;
+      transform:rotate(450deg);
+    }
+}

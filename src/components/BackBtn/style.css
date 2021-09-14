@@ -21,11 +21,45 @@
     background-color: transparent;
 }
 
+.button--text {
+    border: none;
+    color: #9A9A9A;
+    background-color: transparent;
+    padding: 0;
+}
+
 .button--small {
     font-size: 14px;
     height: 34px;
 }
 
-.disabled {
-    background: rgb(154, 174, 211);
+.button--disabled {
+    opacity: 0.6;
 }
+
+.button--loading span{
+    visibility: hidden;
+}
+
+.spinner {
+    position: absolute;
+}
+
+.button--application-theme.button {
+    background-color: #11BFBD;
+    border-radius: 1px;
+  }
+
+  .button--application-theme.button--secondary {
+    border: 1px solid #11BFBD;
+    background-color: transparent;
+    color: #009099;
+  }
+
+  .button--application-theme.button--text {
+    color: #009099;
+    background-color: transparent;
+  }
+
+
+  

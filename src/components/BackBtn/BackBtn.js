@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import bemHelper from '../../helpers/bem-helper';
+import Spinner from '../Spinner/Spinner';
 
 export default function Button(props) {
         const {
@@ -8,7 +9,11 @@ export default function Button(props) {
             type,
             size,
             disabled,
+            loading,
+            onClick,
+            theme
         } = props;
+
       return(
         <div className={bemHelper('button', {
             text: type === 'text',
@@ -16,13 +21,15 @@ export default function Button(props) {
             secondary: type === 'secondary',
             regular: size === 'regular',
             small: size === 'small',
-        })}>
-              {text}
+            disabled: (disabled || loading),
+            loading: loading,
+            'application-theme': theme === 'application-theme'
+        })}
+        role="button"
+        onClick={(disabled || loading) ? () => {} : onClick}>
+              <span>{text}</span>
+              {loading && <Spinner />}
           </div>
-
-        //   <div className={`button ${toggle ? 'disabled' : ''}`}>
-        //       {text}
-        //   </div>
       )
 }
 
