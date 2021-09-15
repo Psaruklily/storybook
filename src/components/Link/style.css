@@ -1,0 +1,16 @@
+.Link {
+    color: #009099;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline;
+}
+
+.Link--with-underline {
+    text-decoration: underline;
+}
+
+.Link:hover,
+.Link.pseudoclass--hover {
+    text-decoration: underline;
+}

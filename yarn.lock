@@ -1480,6 +1480,11 @@
   "resolved" "https://registry.npmjs.org/@emotion/weak-memoize/-/weak-memoize-0.2.5.tgz"
   "version" "0.2.5"
 
+"@ergosign/storybook-addon-pseudo-states-react@*":
+  "integrity" "sha512-rcnIjlz2QAi/J+JPZtoSgb59rtIPQL/4E1Sj72vHu3cH72wfWaJ7bCklAcLnoyJ3yY1y5YKGFPIwGkUOmokI/w=="
+  "resolved" "https://registry.npmjs.org/@ergosign/storybook-addon-pseudo-states-react/-/storybook-addon-pseudo-states-react-0.0.1-alpha.48.tgz"
+  "version" "0.0.1-alpha.48"
+
 "@eslint/eslintrc@^0.4.3":
   "integrity" "sha512-J6KFFz5QCYUJq3pf0mjEcCJVERbzv71PUIDczuh9JkwGEzced6CO5ADLHB1rbf/+oPBtoPfMYNOpGDzCANlbXw=="
   "resolved" "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-0.4.3.tgz"
@@ -2097,7 +2102,7 @@
     "prop-types" "^15.7.2"
     "regenerator-runtime" "^0.13.7"
 
-"@storybook/addons@^6.3.0", "@storybook/addons@6.3.8":
+"@storybook/addons@^5.3.8 || ^6", "@storybook/addons@^6.3.0", "@storybook/addons@6.3.8":
   "integrity" "sha512-TzYk1f/wvfoGDkLxXIx85ii5ED7IfGP/6eu00/i2Hyn4uGqdNi/ltSOJxnxa+DZv8KjYQRVAEo/Fbh95IEXI1Q=="
   "resolved" "https://registry.npmjs.org/@storybook/addons/-/addons-6.3.8.tgz"
   "version" "6.3.8"
@@ -2112,7 +2117,7 @@
     "global" "^4.4.0"
     "regenerator-runtime" "^0.13.7"
 
-"@storybook/api@^6.3.0", "@storybook/api@6.3.8":
+"@storybook/api@^5.3.8 || ^6", "@storybook/api@^6.3.0", "@storybook/api@6.3.8":
   "integrity" "sha512-8b61KnWhN+sA+Gq+AHH3M4qM0L8pNS9DtdfPi5GUGWzOg6IZ1EgYVsk9afEwkNESxyZ+GM2O6mGu05J0HfyqNg=="
   "resolved" "https://registry.npmjs.org/@storybook/api/-/api-6.3.8.tgz"
   "version" "6.3.8"
@@ -2268,7 +2273,7 @@
     "core-js" "^3.8.2"
     "global" "^4.4.0"
 
-"@storybook/components@^6.3.0", "@storybook/components@6.3.8":
+"@storybook/components@^5.3.8 || ^6", "@storybook/components@^6.3.0", "@storybook/components@6.3.8":
   "integrity" "sha512-zIvCk7MAL9z17EI58h7WE/TgFTm0njGwFkQrbXOgGkkKYoFt/yrrs8HqylcqBqfTivJNiXJNnmmx0ooJ83PIwA=="
   "resolved" "https://registry.npmjs.org/@storybook/components/-/components-6.3.8.tgz"
   "version" "6.3.8"
@@ -2375,7 +2380,7 @@
     "util-deprecate" "^1.0.2"
     "webpack" "4"
 
-"@storybook/core-events@^6.3.0", "@storybook/core-events@6.3.8":
+"@storybook/core-events@^5.3.8 || ^6", "@storybook/core-events@^6.3.0", "@storybook/core-events@6.3.8":
   "integrity" "sha512-M3d2iX842YfopqmOHlXzL/Xy4fICzaRnet99GdfOqWjZhC2CVSemVk1b/vgfQv4MFYOQkSLsAjkbDH/kU8n9Aw=="
   "resolved" "https://registry.npmjs.org/@storybook/core-events/-/core-events-6.3.8.tgz"
   "version" "6.3.8"
@@ -2500,7 +2505,7 @@
     "webpack-dev-middleware" "^3.7.3"
     "webpack-virtual-modules" "^0.2.2"
 
-"@storybook/node-logger@*", "@storybook/node-logger@^6.3.8", "@storybook/node-logger@6.3.8":
+"@storybook/node-logger@*", "@storybook/node-logger@^5.3.8 || ^6", "@storybook/node-logger@^6.3.8", "@storybook/node-logger@6.3.8":
   "integrity" "sha512-NDXLcvEepnsVGnnhNgRa1SuedPrHJpbi3rubJENCwAy1fD3oB8HIkSCVHaml/htaQXVp6CGMWy02l5iGCVN4ZA=="
   "resolved" "https://registry.npmjs.org/@storybook/node-logger/-/node-logger-6.3.8.tgz"
   "version" "6.3.8"
@@ -12102,7 +12107,7 @@
     "use-composed-ref" "^1.0.0"
     "use-latest" "^1.0.0"
 
-"react@*", "react@^0.14.0 || ^15.0.0 || ^16.0.0", "react@^0.14.8 || ^15.0.1 || ^16.0.0 || ^17.0.1", "react@^16.13.1 || ^17.0.0", "react@^16.6.0 || ^17.0.0", "react@^16.8.0 || ^17", "react@^16.8.0 || ^17.0.0", "react@^16.8.4 || ^17.0.0", "react@^17.0.2", "react@>= 0.14.0", "react@>= 16", "react@>= 16.3.0", "react@>=16.12.0", "react@>=16.3.0", "react@>=16.8.0", "react@15.x || 16.x || 16.4.0-alpha.0911da3", "react@17.0.2":
+"react@*", "react@^0.14.0 || ^15.0.0 || ^16.0.0", "react@^0.14.8 || ^15.0.1 || ^16.0.0 || ^17.0.1", "react@^16.12.0 || ^17", "react@^16.13.1 || ^17.0.0", "react@^16.6.0 || ^17.0.0", "react@^16.8.0 || ^17", "react@^16.8.0 || ^17.0.0", "react@^16.8.4 || ^17.0.0", "react@^17.0.2", "react@>= 0.14.0", "react@>= 16", "react@>= 16.3.0", "react@>=16.12.0", "react@>=16.3.0", "react@>=16.8.0", "react@15.x || 16.x || 16.4.0-alpha.0911da3", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
