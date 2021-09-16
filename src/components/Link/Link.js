@@ -5,10 +5,6 @@ import './style.css';
 const Link = (props) => {
     const {text, href, underline} = props;
 
-    const test = () => {
-        console.log('hello, Lili');
-    }
-
     return (
         <a className={bemHelper('Link', { 'with-underline': underline})}
             href={href}
